@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Quick Video Editor</title>
+    <script defer src="render.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+  </head>
+  <body>
+    <div id="menu-bar">
+      <div class="left" role="menu">
+      </div>
+      <div class="right">
+        <button class="menubar-btn" id="close-btn"><span aria-hidden="true">&times;</span></button>
+      </div>
+    </div>
+    <div class="container">
+      <h1>🙊 Quick Video Editor 🙉</h1>
+      <video
+        id="my-video"
+        class="video-js"
+        controls
+        preload="auto"
+        width="640"
+        height="300"
+        poster=""
+        data-setup="{}"
+      >
+      </video>
+      <br>
+      <button id="videoSelectBtn" class="btn btn-success">
+        Choose a file
+      </button>
+      <button id="muteBtn" class="btn btn-danger">Mute</button>
+    </div>
+  </body>
+</html>
