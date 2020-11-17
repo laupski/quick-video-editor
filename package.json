@@ -1,7 +1,7 @@
 {
   "name": "quick-video-editor",
   "productName": "Quick Video Editor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Quick Video Editor",
   "main": "src/main.js",
   "scripts": {
