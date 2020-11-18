@@ -3,13 +3,13 @@
 
 This project is meant to quickly update local video files in an easy manner.
 
-![Quick Video Editor Preview](https://raw.githubusercontent.com/laupski/quick-video-editor/main/static/preview.PNG)
+![Quick Video Editor Preview](./preview.png)
 
 ## Technical Information
 This project is built using `electron` and wrapped around the `ffmpeg` executable project. Rather than having end users use the CLI, the UI steers the users to their intended changes.
 
 ## Download
-Download [here](https://github.com/laupski/quick-video-editor/tree/main/releases).
+Download [here](./main/releases).
 
 ## Build Locally
 `git clone https://github.com/laupski/quick-video-editor.git` \
