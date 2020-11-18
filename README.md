@@ -9,7 +9,7 @@ This project is meant to quickly update local video files in an easy manner.
 This project is built using `electron` and wrapped around the `ffmpeg` executable project. Rather than having end users use the CLI, the UI steers the users to their intended changes.
 
 ## Download
-Download [here](./main/releases).
+Download [here](./releases).
 
 ## Build Locally
 `git clone https://github.com/laupski/quick-video-editor.git` \
