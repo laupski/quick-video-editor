@@ -36,7 +36,10 @@ function getVideoFile() {
 function muteVideoFile() {
     filePath = dialog.showSaveDialogSync({
         buttonLabel: 'Save video',
-        defaultPath: `muted-${defaultFileName}`
+        defaultPath: `muted-${defaultFileName}`,
+        filters: [
+            { name: '.mp4', extensions: ['mp4']}
+        ]
     });
 
     const makeMutedMP4 = shell([
